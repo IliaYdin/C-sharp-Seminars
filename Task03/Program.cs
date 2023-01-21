@@ -7,13 +7,13 @@
 // 5 -> Пятница
 
 Console.Write("Введите число: ");
-int nomber = Convert.ToInt32(Console.ReadLine());
+string nomber = (Console.ReadLine());
 
-if(nomber == 3)
+if(nomber == "3")
 {
     Console.WriteLine("Среда");
 }
-else if (nomber == 5)
+else if (nomber == "5")
 {
    Console.WriteLine("Пятница");;
 }
